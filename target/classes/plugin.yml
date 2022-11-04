@@ -1,0 +1,15 @@
+main: com.b5team.statsex.Main
+name: StatsEx
+version: 1.0
+author: bbruno5
+description: Makes you capable to get player's statistics since first join on server
+softdepend: [PlaceholderAPI]
+
+commands:
+  statsex:
+    description: Calls plugin to get statistics data
+    aliases: [stats, se]
+permissions:
+  statsex.use:
+    description: Makes possible get info with commands, or placeholders
+    default: op
